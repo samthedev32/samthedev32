@@ -21,18 +21,14 @@ Here are some ideas to get you started:
 - [Game Engine](https://github.com/VS-dev-cpu/Graphite) (and [Physics Engine](https://github.com/VS-dev-cpu/Carbon))
 - Neural Network Library
 - Chat App
-- Multifunctional Flashlight
-- Smart-ish Watch
-- RoboCup Junior Soccer Open robot
 
 ... and a lot more
 
 🌱 I’m currently learning:
 - GPU Programming (Vulkan)
 - Android Development (Kotlin)
-- managing large projects
-- AI Development
 - Game Development
+- AI Development
 
 👯 I’m open to collaborations 
 
