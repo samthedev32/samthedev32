@@ -19,8 +19,9 @@ Here are some ideas to get you started:
 
 🔭 I'm currently working on a...
 - [Game Engine](https://github.com/VS-dev-cpu/Graphite) (and [Physics Engine](https://github.com/VS-dev-cpu/Carbon))
-- Neural Network Library
-- Chat App
+- [Neural Network Library](https://github.com/samthedev32/Neural-Networks)
+- [Chat App](https://github.com/samthedev32/Rooms]
+- RCJ Soccer Open Robot
 
 ... and a lot more
 
