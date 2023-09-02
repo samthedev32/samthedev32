@@ -8,15 +8,18 @@
 - Custom 3D Printer & CNC
 - Home PCB "Factory"
 - Autonomus Drone
-- TODO
+- Music App
+- MIDI App (for piano and drums)
+> & more!
 
 🔭 Ongoing Projects:
 - [Game Engine](https://github.com/samthedev32/Graphite) (and [Physics Engine](https://github.com/samthedev32/Carbon))
 - [Chat App](https://github.com/samthedev32/Rooms)
 - RCJ Soccer Open Robot
+> & more!
 
 🏁 Finished Projects:
-- TODO
+> TODO
 
 🌱 I’m currently learning:
 - GPU Programming (Vulkan)
