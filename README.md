@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+🌐 [My Personal WebPage](https://samthedev.toaster.hu)
+
 📝 Planned Projects:
 - [Neural Network Library](https://github.com/samthedev32/Neural-Networks)
 - Small Language Model
