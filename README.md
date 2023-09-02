@@ -1,12 +1,22 @@
 ### Hi there 👋
 
-🔭 I'm currently working on a...
-- [Game Engine](https://github.com/samthedev32/Graphite) (and [Physics Engine](https://github.com/samthedev32/Carbon))
+📝 Planned Projects:
 - [Neural Network Library](https://github.com/samthedev32/Neural-Networks)
+- Small Language Model
+- AI Home Assistant
+- DIY Phone (& watch)
+- Custom 3D Printer & CNC
+- Home PCB "Factory"
+- Autonomus Drone
+- TODO
+
+🔭 Ongoing Projects:
+- [Game Engine](https://github.com/samthedev32/Graphite) (and [Physics Engine](https://github.com/samthedev32/Carbon))
 - [Chat App](https://github.com/samthedev32/Rooms)
 - RCJ Soccer Open Robot
 
-... and a lot more
+🏁 Finished Projects:
+- TODO
 
 🌱 I’m currently learning:
 - GPU Programming (Vulkan)
