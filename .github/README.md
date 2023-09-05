@@ -34,7 +34,6 @@
 
 📫 How to reach me:
 - by email (samthedev@toaster.hu)
-- by Discord (***@samthedev***)
 
 💻 My Dev Setup:
 - I daily-drive [Debian 12](https://www.debian.org) on an old HP Laptop
