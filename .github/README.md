@@ -45,5 +45,3 @@
 <!-- ![Github Stats](https://github-readme-stats.vercel.app/api?username=samthedev32&count_private=true&hide=issues) -->
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=samthedev32&layout=compact)
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=samthedev32&theme=tokyonight" alt="mystreak"/>
