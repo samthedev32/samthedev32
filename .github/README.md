@@ -39,7 +39,7 @@
 - I daily-drive [Debian 12](https://www.debian.org) on an old HP Laptop
 - I use GNOME with the following themes: [cursor](https://www.gnome-look.org/p/1638261), [icons](https://www.gnome-look.org/p/1305251/) and [theme](https://www.gnome-look.org/p/1253385/)
 
-- I use CLion and [Visual Studio Codium](https://code.vvisualstudio.com/)
+- I use [CLion](https://www.jetbrains.com/clion/) for larger, and [VSCodium](https://vscodium.com/) for smaller projects
 - My VS-Codium Extensions are:
   - [clangd](https://open-vsx.org/extension/llvm-vs-code-extensions/vscode-clangd),
   - [CMake](https://open-vsx.org/extension/twxs/cmake),
