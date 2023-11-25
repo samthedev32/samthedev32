@@ -48,6 +48,7 @@
   - [Todo Tree](https://open-vsx.org/vscode/item?itemName=Gruntfuggly.todo-tree)
   - [GLSL Lint](https://open-vsx.org/extension/dtoplak/vscode-glsllint)
   - [Makefile Tools](https://open-vsx.org/extension/ms-vscode/makefile-tools)
+  - [Mermaid Markdown Syntax Highlight](https://open-vsx.org/extension/bpruitt-goddard/mermaid-markdown-syntax-highlighting)
 
   - [vscode-pdf](https://open-vsx.org/extension/tomoki1207/pdf)
 
