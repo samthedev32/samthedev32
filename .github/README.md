@@ -41,10 +41,10 @@
 
 - I use [CLion](https://www.jetbrains.com/clion/) for larger, and [VSCodium](https://vscodium.com/) for smaller projects
 - My VS-Codium Extensions are:
-  - [clangd](https://open-vsx.org/extension/llvm-vs-code-extensions/vscode-clangd),
-  - [CMake](https://open-vsx.org/extension/twxs/cmake),
-  - [CMake IntelliSense](https://open-vsx.org/extension/KylinIdeTeam/cmake-intellisence),
-  - [CMake Tools](https://open-vsx.org/extension/ms-vscode/cmake-tools),
+  - [clangd](https://open-vsx.org/extension/llvm-vs-code-extensions/vscode-clangd)
+  - [CMake](https://open-vsx.org/extension/twxs/cmake)
+  - [CMake IntelliSense](https://open-vsx.org/extension/KylinIdeTeam/cmake-intellisence)
+  - [CMake Tools](https://open-vsx.org/extension/ms-vscode/cmake-tools)
   - [Todo Tree](https://open-vsx.org/vscode/item?itemName=Gruntfuggly.todo-tree)
   - [GLSL Lint](https://open-vsx.org/extension/dtoplak/vscode-glsllint)
   - [Makefile Tools](https://open-vsx.org/extension/ms-vscode/makefile-tools)
