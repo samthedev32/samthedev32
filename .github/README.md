@@ -4,20 +4,14 @@
 
 📝 Planned Projects:
 - [Neural Network Library](https://github.com/samthedev32/Neural-Networks)
-- Small Language Model
-- AI Home Assistant
-- DIY Phone (& watch)
-- Custom 3D Printer & CNC
-- Home PCB "Factory"
 - Autonomus Drone
 - Music App
-- MIDI App (for piano and drums)
 > & more!
 
-🔭 Ongoing Projects:
-- [Game Engine](https://github.com/samthedev32/Graphite) (and [Physics Engine](https://github.com/samthedev32/Carbon))
-- [Chat App](https://github.com/samthedev32/Rooms)
-- RCJ Soccer Open Robot
+🔭 Ongoing Projects
+- [Artifex](https://github.com/samthedev32/Artifex) (2D Game/Rendering Engine)
+<!-- - [Game Engine](https://github.com/samthedev32/Graphite) (and [Physics Engine](https://github.com/samthedev32/Carbon)) -->
+- [Rooms](https://github.com/samthedev32/Rooms) (Chat App)
 - [Rocket Motor Test Stand & Rocket](https://agac.toaster.hu)
 > & more!
 
@@ -27,7 +21,7 @@
 🌱 I’m currently learning:
 - GPU Programming (Vulkan)
 - Android Development (Kotlin)
-- Game Development
+- Game (Engine) Development
 - AI Development
 
 👯 I’m open to collaborations 
@@ -38,20 +32,6 @@
 💻 My Dev Setup:
 - I daily-drive [Debian 12](https://www.debian.org) on an old HP Laptop
 - I use GNOME with the following themes: [cursor](https://www.gnome-look.org/p/1638261), [icons](https://www.gnome-look.org/p/1305251/) and [theme](https://www.gnome-look.org/p/1253385/)
-
-- I use [CLion](https://www.jetbrains.com/clion/) for larger, and [VSCodium](https://vscodium.com/) for smaller projects
-- My VS-Codium Extensions are:
-  - [clangd](https://open-vsx.org/extension/llvm-vs-code-extensions/vscode-clangd)
-  - [CMake](https://open-vsx.org/extension/twxs/cmake)
-  - [CMake IntelliSense](https://open-vsx.org/extension/KylinIdeTeam/cmake-intellisence)
-  - [CMake Tools](https://open-vsx.org/extension/ms-vscode/cmake-tools)
-  - [Todo Tree](https://open-vsx.org/vscode/item?itemName=Gruntfuggly.todo-tree)
-  - [GLSL Lint](https://open-vsx.org/extension/dtoplak/vscode-glsllint)
-  - [Makefile Tools](https://open-vsx.org/extension/ms-vscode/makefile-tools)
-  - [Mermaid Markdown Syntax Highlight](https://open-vsx.org/extension/bpruitt-goddard/mermaid-markdown-syntax-highlighting)
-
-  - [vscode-pdf](https://open-vsx.org/extension/tomoki1207/pdf)
-
-<!-- ![Github Stats](https://github-readme-stats.vercel.app/api?username=samthedev32&count_private=true&hide=issues) -->
+- I use [CLion](https://www.jetbrains.com/clion/) for larger, and some variant of [VS Code](https://vscodium.com/) for smaller projects
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=samthedev32&layout=compact)
