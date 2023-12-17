@@ -10,10 +10,11 @@
 
 🔭 Ongoing Projects
 - [Artifex](https://github.com/samthedev32/Artifex) (2D Game/Rendering Engine)
-<!-- - [Game Engine](https://github.com/samthedev32/Graphite) (and [Physics Engine](https://github.com/samthedev32/Carbon)) -->
 - [Rooms](https://github.com/samthedev32/Rooms) (Chat App)
 - [Rocket Motor Test Stand & Rocket](https://agac.toaster.hu)
 > & more!
+<!-- - [Game Engine](https://github.com/samthedev32/Graphite) (and [Physics Engine](https://github.com/samthedev32/Carbon)) -->
+
 
 🏁 Finished Projects:
 > TODO
