@@ -38,7 +38,7 @@ gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize
 
 # Install basic apps
 
-sudo apt install -y neovim build-essential curl
+sudo apt install -y neovim build-essential curl git
 
 curl -sS https://download.spotify.com/debian/pubkey_7A3A762FAFD4A51F.gpg | sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/spotify.gpg
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
