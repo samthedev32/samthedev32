@@ -31,8 +31,8 @@
 - by email (samthedev@toaster.hu)
 
 💻 My Dev Setup:
-- I daily-drive [Debian 12](https://www.debian.org) on an old HP Laptop
-- I use GNOME with the following themes: [cursor](https://www.gnome-look.org/p/1638261), [icons](https://www.gnome-look.org/p/1305251/) and [theme](https://www.gnome-look.org/p/1253385/)
-- I use [CLion](https://www.jetbrains.com/clion/) for larger, and some variant of [VS Code](https://vscodium.com/) for smaller projects
+- I daily-drive [Debian 12](https://www.debian.org) alongside Windows 10 (sometimes) on an old HP Laptop
+- I use GNOME with some personalization (see [setup.sh](../setup.sh))
+- I use [CLion](https://www.jetbrains.com/clion/) for large projects, some flavor of [VS Code]([https://code.visualstudio.com/]) for libraries and [Vim](https://neovim.io/) for smaller projects
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=samthedev32&layout=compact)
