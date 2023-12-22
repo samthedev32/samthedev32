@@ -47,6 +47,8 @@ sudo apt-get update && sudo apt-get install -y spotify-client
 wget https://github.com/VSCodium/vscodium/releases/download/1.85.1.23348/codium_1.85.1.23348_amd64.deb
 sudo dpkg -i codium_1.85.1.23348_amd64.deb
 
-echo "Remaining:"
-echo "Download Jetbrains Toolbox: https://www.jetbrains.com/toolbox-app"
-echo "Set Custom Font"
+echo ""
+echo "My Preferred ToDo:"
+echo "Install Jetbrains Tools: https://www.jetbrains.com/toolbox-app"
+echo "Install Discord: https://discord.com/"
+echo "Set Custom Font: https://fonts.google.com/specimen/Ubuntu"
