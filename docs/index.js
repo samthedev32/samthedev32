@@ -1,5 +1,5 @@
-// No idea what this is
-function myFunction() {
+// Toggle Hamburger Menu
+function toggleMobileMenu() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
         x.className += " responsive";
@@ -8,11 +8,26 @@ function myFunction() {
     }
 }
 
+// Close Hamburger
+function closeHamburger() {
+    var x = document.getElementById("myTopnav");
+    x.className = "topnav"
+}
+
 // Load Content to Page
 function loadContent(page) {
     // Fetch content from the server
     fetch("content/" + page + '.html')
-        .then(response => response.text())
+        .then(response => {
+            if (!response.ok) {
+                if (response.status === 404) {
+                    loadContent("404")
+                } else {
+                    throw new Error('Error loading content: ' + response.status);
+                }
+            }
+            return response.text();
+        })
         .then(content => {
             // Update the content-container with the loaded content
             document.getElementById("content").innerHTML = content;
@@ -35,8 +50,10 @@ function onHashChange() {
         activeLink.classList.add("active");
     }
 
-    // Initial call to load content based on the current hash or a default page
+    // Close Mobile Menu
+    x.className = "topnav";
 
+    // Load New Content
     var initialHash = window.location.hash.substr(1);
     var defaultPage = initialHash || 'about';
     loadContent(defaultPage);
