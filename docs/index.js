@@ -17,7 +17,11 @@ function closeHamburger() {
 // Load Content to Page
 function loadContent(page) {
     // Fetch content from the server
-    fetch("content/" + page + '.html')
+    fetch("content/" + page + '.html', {
+        headers: {
+            'Content-Type': 'text/html'
+        }
+    })
         .then(response => {
             if (!response.ok) {
                 if (response.status === 404) {
@@ -29,8 +33,22 @@ function loadContent(page) {
             return response.text();
         })
         .then(content => {
-            // Update the content-container with the loaded content
+            // Update the content
             document.getElementById("content").innerHTML = content;
+
+            // Run the scripts
+            const scripts = document.querySelectorAll('#content script');
+            scripts.forEach(script => {
+                if (script.src) {
+                    // External script with src attribute
+                    const newScript = document.createElement('script');
+                    newScript.src = script.src;
+                    document.head.appendChild(newScript);
+                } else {
+                    // Inline script
+                    eval(script.innerHTML);
+                }
+            });
         })
         .catch(error => console.error('Error fetching content:', error));
 }
