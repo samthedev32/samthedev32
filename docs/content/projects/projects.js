@@ -5,14 +5,16 @@ function generateCards(containerId, projectList) {
     projectList.forEach(element => {
         // Create a card element
         var card = document.createElement('div');
-        card.className = 'card';
+        card.className = "card"
+        card.id = "card." + element
 
-        // Customize the content or appearance of the card here
         var cardContent = document.createTextNode(element);
         card.appendChild(cardContent);
 
-        // Append the card to the container
+        // // Append the card to the container
         container.appendChild(card);
+        loadPage("card." + element, "content/projects/" + element + "/index.html")
+
     });
 
     if (container.childElementCount === 0) {
@@ -21,6 +23,6 @@ function generateCards(containerId, projectList) {
     }
 }
 
-var projects = []
+var projects = ["flappy_cube", "RoadRun"]
 
 generateCards('cards', projects);

@@ -15,17 +15,14 @@ function closeHamburger() {
 }
 
 // Load Content to Page
-function loadContent(page) {
+function loadPage(container, page) {
+    var element = document.getElementById(container)
     // Fetch content from the server
-    fetch("content/" + page + '.html', {
-        headers: {
-            'Content-Type': 'text/html'
-        }
-    })
+    fetch(page)
         .then(response => {
             if (!response.ok) {
                 if (response.status === 404) {
-                    loadContent("404")
+                    loadPage(container, "content/404.html")
                 } else {
                     throw new Error('Error loading content: ' + response.status);
                 }
@@ -34,10 +31,10 @@ function loadContent(page) {
         })
         .then(content => {
             // Update the content
-            document.getElementById("content").innerHTML = content;
+            element.innerHTML = content;
 
             // Run the scripts
-            const scripts = document.querySelectorAll('#content script');
+            const scripts = element.querySelectorAll('script');
             scripts.forEach(script => {
                 if (script.src) {
                     // External script with src attribute
@@ -74,7 +71,7 @@ function onHashChange() {
     // Load New Content
     var initialHash = window.location.hash.substr(1);
     var defaultPage = initialHash || 'about';
-    loadContent(defaultPage);
+    loadPage("content", "content/" + defaultPage + "/" + defaultPage + ".html");
 }
 
 window.addEventListener("hashchange", onHashChange);
