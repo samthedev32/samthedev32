@@ -1,19 +1,14 @@
 ### Hi there 👋
 
-🌐 [My Personal Page](https://samthedev.toaster.hu)
+<!-- 🌐 [My Personal Page](https://samthedev.toaster.hu)
 
 📝 Planned Projects:
-- [Neural Network Library](https://github.com/samthedev32/Neural-Networks)
-- Autonomus Drone
-- Music App
-> & more!
 
 🔭 Ongoing Projects
 - [Artifex](https://github.com/samthedev32/Artifex) (2D Game/Rendering Engine)
 - [Rooms](https://github.com/samthedev32/Rooms) (Chat App)
 - [Rocket Motor Test Stand & Rocket](https://agac.toaster.hu)
 > & more!
-<!-- - [Game Engine](https://github.com/samthedev32/Graphite) (and [Physics Engine](https://github.com/samthedev32/Carbon)) -->
 
 🏁 Finished Projects:
 > TODO
@@ -24,6 +19,7 @@
 - Android Development (Kotlin)
 - Game (Engine) Development
 - AI Development
+-->
 
 👯 I’m open to collaborations
 
