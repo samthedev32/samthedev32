@@ -22,30 +22,34 @@ function loadPage(container, page) {
         .then(response => {
             if (!response.ok) {
                 if (response.status === 404) {
-                    loadPage(container, "content/404.html")
+                    return loadPage(container, "content/404.html")
                 } else {
                     throw new Error('Error loading content: ' + response.status);
                 }
+            } else {
+
             }
             return response.text();
         })
         .then(content => {
-            // Update the content
-            element.innerHTML = content;
+            if (content) {
+                // Update the content
+                element.innerHTML = content;
 
-            // Run the scripts
-            const scripts = element.querySelectorAll('script');
-            scripts.forEach(script => {
-                if (script.src) {
-                    // External script with src attribute
-                    const newScript = document.createElement('script');
-                    newScript.src = script.src;
-                    document.head.appendChild(newScript);
-                } else {
-                    // Inline script
-                    eval(script.innerHTML);
-                }
-            });
+                // Run the scripts
+                const scripts = element.querySelectorAll('script');
+                scripts.forEach(script => {
+                    if (script.src) {
+                        // External script with src attribute
+                        const newScript = document.createElement('script');
+                        newScript.src = script.src;
+                        document.head.appendChild(newScript);
+                    } else {
+                        // Inline script
+                        eval(script.innerHTML);
+                    }
+                });
+            }
         })
         .catch(error => console.error('Error fetching content:', error));
 }
