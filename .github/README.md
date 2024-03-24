@@ -1,17 +1,17 @@
 ### Hi there 👋
 
-<!-- 🌐 [My Personal Page](https://samthedev.toaster.hu)
-
+<!--
 📝 Planned Projects:
 
 🔭 Ongoing Projects
-- [Artifex](https://github.com/samthedev32/Artifex) (2D Game/Rendering Engine)
+- [Artifex](https://github.com/samthedev32/Artifex) (2D Game Engine)
 - [Rooms](https://github.com/samthedev32/Rooms) (Chat App)
-- [Rocket Motor Test Stand & Rocket](https://agac.toaster.hu)
-> & more!
+- [RoboCup Junior 2024](https://github.com/hu-more-bot/RCJ2024) (attending yearly)
+- and a lot more...
 
 🏁 Finished Projects:
 > TODO
+-->
 
 🌱 I’m currently learning:
 - Embedded Programming & PCB Designing
@@ -19,16 +19,16 @@
 - Android Development (Kotlin)
 - Game (Engine) Development
 - AI Development
--->
 
 👯 I’m open to collaborations
 
 📫 How to reach me:
-- by email (samthedev@toaster.hu)
+- by [email](mailto:samthedev@toaster.hu)
+- on discord: `samthedev`
 
 💻 My Dev Setup:
-- I daily-drive some flavor of [Debian](https://www.debian.org), sometimes dualboot-ed with Windows 10
-- My server runs also runs on [Debian 12](https://www.debian.org) with [Docker](https://www.docker.com/)
+- I daily-drive [Debian 12](https://www.debian.org)
+- My server runs [proxmox](https://proxmox.com/en/) with [Debian 12](https://www.debian.org)
 - My preferred desktop environment is [GNOME](https://www.gnome.org/) with some personalization (see [setup.sh](../setup.sh))
 - I use [CLion](https://www.jetbrains.com/clion/) for large projects and [VSCode]([https://code.visualstudio.com/]) for libraries and smaller projects
 
