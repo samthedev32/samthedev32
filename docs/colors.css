@@ -1,0 +1,12 @@
+:root {
+    --bg: #ffffff;
+
+    --topnav-color: #333;
+    --topnav-text: #f2f2f2;
+
+    --topnav-active-bg: #ffae00;
+    --topnav-active-text: white;
+
+    --topnav-hover-bg: #ddd;
+    --topnav-hover-text: black;
+}

@@ -1,17 +1,17 @@
+const topnav = document.getElementById("TopNav")
+
 // Toggle Hamburger Menu
-function toggleMobileMenu() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
+function toggleMenu() {
+    if (topnav.className === "topnav") {
+        topnav.className += " responsive";
     } else {
-        x.className = "topnav";
+        closeMenu()
     }
 }
 
 // Close Hamburger
-function closeHamburger() {
-    var x = document.getElementById("myTopnav");
-    x.className = "topnav"
+function closeMenu() {
+    topnav.className = "topnav"
 }
 
 // Load Content to Page
@@ -22,12 +22,10 @@ function loadPage(container, page) {
         .then(response => {
             if (!response.ok) {
                 if (response.status === 404) {
-                    return loadPage(container, "content/404.html")
+                    return loadPage(container, "404.html")
                 } else {
                     throw new Error('Error loading content: ' + response.status);
                 }
-            } else {
-
             }
             return response.text();
         })
@@ -58,8 +56,7 @@ function loadPage(container, page) {
 function onHashChange() {
     var hash = window.location.hash.substr(1);
 
-    var x = document.getElementById("myTopnav");
-    var links = x.getElementsByTagName("a");
+    var links = topnav.getElementsByTagName("a");
     for (var i = 0; i < links.length; i++) {
         links[i].classList.remove("active");
     }
@@ -70,7 +67,7 @@ function onHashChange() {
     }
 
     // Close Mobile Menu
-    x.className = "topnav";
+    closeMenu()
 
     // Load New Content
     var initialHash = window.location.hash.substr(1);

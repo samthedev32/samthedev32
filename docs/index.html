@@ -3,22 +3,52 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+	<script src="https://kit.fontawesome.com/db8d111f7d.js" crossorigin="anonymous"></script>
+
+	<!-- All of CSS -->
+	<link rel="stylesheet" href="colors.css">
 	<link rel="stylesheet" href="index.css">
+
+	<title>SamTheDev</title>
 </head>
 
 <body>
-	<div class="topnav" id="myTopnav">
-		<a href="#about" onclick="closeHamburger()" class="active">About</a>
-		<a href="#projects" onClick="closeHamburger()">Projects</a>
-		<a href="#contact" onclick="closeHamburger()">Contact</a>
-		<a href="javascript:void(0);" class="icon" onclick="toggleMobileMenu()">
+	<div class="topnav" id="TopNav">
+		<!-- Page Navigation -->
+		<a href="#about" class="active">About</a>
+		<a href="#langs">Languages</a>
+		<a href="#projects">Projects</a>
+
+		<!-- Socials -->
+		<div class="social">
+			<!-- <a href="https://www.youtube.com/channel/UCR8z9TUZnUDvs0XR0DUEnmw">
+				<i class="fa-brands fa-youtube"></i>
+			</a> -->
+
+			<a href="https://www.instagram.com/samthedev32/">
+				<i class="fa-brands fa-instagram"></i>
+			</a>
+
+			<a href="mailto:samthedev@toaster.hu">
+				<i class="fa-regular fa-envelope"></i>
+			</a>
+
+			<a href="https://github.com/samthedev32">
+				<i class="fa-brands fa-github"></i>
+			</a>
+		</div>
+
+		<!-- Hamburger Menu -->
+		<a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
 			<i class="fa fa-bars"></i>
 		</a>
 	</div>
 
 	<!-- Content container -->
-	<div id="content"></div>
+	<div id="content" onclick="closeMenu()"></div>
 </body>
 
 <!-- Scripts -->

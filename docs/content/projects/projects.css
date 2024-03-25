@@ -12,7 +12,7 @@
     width: 200px;
     height: 200px;
 
-    background: #2cb5a0;
+    background: var(--card-bg);
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 20px;

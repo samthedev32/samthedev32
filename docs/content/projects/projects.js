@@ -13,7 +13,7 @@ function generateCards(containerId, projectList) {
 
         // // Append the card to the container
         container.appendChild(card);
-        loadPage("card." + element, "content/projects/" + element + "/index.html")
+        loadPage("card." + element, "content/projects/cards/" + element + "/index.html")
 
     });
 
@@ -23,6 +23,6 @@ function generateCards(containerId, projectList) {
     }
 }
 
-var projects = ["flappy_cube", "RoadRun"]
+var projects = ["Artifex"]
 
 generateCards('cards', projects);
