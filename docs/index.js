@@ -44,7 +44,7 @@ function loadPage(container, page) {
                         document.head.appendChild(newScript);
                     } else {
                         // Inline script
-                        eval(script.innerHTML);
+                        eval(script.outerHTML);
                     }
                 });
             }

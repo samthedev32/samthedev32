@@ -66,6 +66,10 @@ body {
         display: block;
         text-align: left;
     }
+
+    .topnav .social {
+        display: none;
+    }
 }
 
 /* 

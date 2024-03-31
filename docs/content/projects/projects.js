@@ -6,14 +6,14 @@ function generateCards(containerId, projectList) {
         // Create a card element
         var card = document.createElement('div');
         card.className = "card"
-        card.id = "card." + element
+        card.id = "card_" + element
 
         var cardContent = document.createTextNode(element);
         card.appendChild(cardContent);
 
         // // Append the card to the container
         container.appendChild(card);
-        loadPage("card." + element, "content/projects/cards/" + element + "/index.html")
+        loadPage("card_" + element, "content/projects/cards/" + element + ".html")
 
     });
 
@@ -23,6 +23,6 @@ function generateCards(containerId, projectList) {
     }
 }
 
-var projects = ["Artifex"]
+var projects = ["Artifex", "alma"]
 
 generateCards('cards', projects);

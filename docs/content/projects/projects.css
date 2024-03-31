@@ -13,10 +13,11 @@
     height: 200px;
 
     background: var(--card-bg);
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-top: 25px; */
+    /* padding-bottom: 25px; */
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+
     border: 4px solid #7cdacc;
     box-shadow: 0 6px 10px rgba(207, 212, 222, 1);
     border-radius: 10px;
@@ -27,5 +28,5 @@
 }
 
 .card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-20px) rotateY(25deg);
 }
