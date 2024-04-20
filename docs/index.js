@@ -54,14 +54,16 @@ function loadPage(container, page) {
 
 // Update Content
 function onHashChange() {
-    var hash = window.location.hash.substr(1);
+    var hash = window.location.hash.substring(1);
+
+    page = hash.split('?')[0]
 
     var links = topnav.getElementsByTagName("a");
     for (var i = 0; i < links.length; i++) {
         links[i].classList.remove("active");
     }
 
-    var activeLink = document.querySelector('a[href="#' + hash + '"]');
+    var activeLink = document.querySelector('a[href="#' + page + '"]');
     if (activeLink) {
         activeLink.classList.add("active");
     }
@@ -70,8 +72,7 @@ function onHashChange() {
     closeMenu()
 
     // Load New Content
-    var initialHash = window.location.hash.substr(1);
-    var defaultPage = initialHash || 'about';
+    var defaultPage = page || 'about';
     loadPage("content", "content/" + defaultPage + "/" + defaultPage + ".html");
 }
 

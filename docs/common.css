@@ -1,0 +1,11 @@
+.rounded {
+    border-radius: 10px;
+}
+
+.bordered {
+    text-align: center;
+
+    outline-style: solid;
+    outline-width: 5px;
+    outline-color: #333;
+}

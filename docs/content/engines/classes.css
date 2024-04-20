@@ -1,0 +1,14 @@
+.hiddenList {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* .sidebar {} */

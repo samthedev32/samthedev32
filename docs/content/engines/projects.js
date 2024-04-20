@@ -23,6 +23,6 @@ function generateCards(containerId, projectList) {
     }
 }
 
-var projects = ["Artifex", "robocup"]
+var projects = ["Artifex"]
 
 generateCards('cards', projects);

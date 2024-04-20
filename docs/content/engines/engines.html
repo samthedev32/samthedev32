@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="content/engines/arrangement.css">
+    <link rel="stylesheet" href="content/engines/classes.css">
+
+    <link rel="stylesheet" href="colors.css">
+
+    <script src="content/engines/subpage.js"></script>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="item1 rounded sidebar">
+            <h1 class="">Engine Selector</h1>
+            <ul class="hiddenList">
+                <li><a href="#engines?Artifex" class="button">Artifex</a></li>
+                <li><a href="#engines?none" class="button">other one</a></li>
+                <li><a href="#engines?none" class="button">third one</a></li>
+            </ul>
+        </div>
+
+        <div class="item2 rounded">
+            <!-- Load Content -->
+            <canvas class="rounded" id="canvas"> </canvas>
+        </div>
+
+        <div class="item3 rounded">
+            <nav class="rounded bottombar">
+                <ul id="descriptionContainer" style="font-size: 20px;">
+                    <!-- Load Description -->
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Right Sidebar -->
+        <div class="item4 rounded sidebar">
+            <!-- <nav class="rounded sidebar"> -->
+            <h1>Feature Selector</h1>
+            <ul class="hiddenList">
+                <li><a class="button">Preview</a></li>
+                <li><a class="button">Show-Off</a></li>
+            </ul>
+            <!-- </nav> -->
+        </div>
+    </div>
+</body>
+
+</html>
