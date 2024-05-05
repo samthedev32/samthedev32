@@ -1,13 +1,3 @@
-<style>
-    .card {
-        box-shadow: 0 10px 16px 0 rgba(0.5, 0, 0, 0.7);
-        padding: 0px 8px;
-
-        border-radius: 10px;
-    }
-</style>
-
-<body>
 <h1 style="text-align: center;">Howdy 👋</h1>
 <p style="text-align: center;">I'm Sam, a self-taught software engineer</p>
 
@@ -19,8 +9,6 @@
         <li>stuff</li>
     </ul> 
 </div>
-
-</body>
 
 <!--
 📝 Planned Projects:
