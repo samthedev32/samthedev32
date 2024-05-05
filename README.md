@@ -1,14 +1,5 @@
-<h1 style="text-align: center;">Howdy 👋</h1>
-<p style="text-align: center;">I'm Sam, a self-taught software engineer</p>
-
-<div class="card">
-    <h3>My interests</h3>
-    <ul>
-        <li>Game (-engine) Development</li>
-        <li>Embedded Development</li>
-        <li>stuff</li>
-    </ul> 
-</div>
+<h1 align="center">Howdy 👋</h1>
+<p align="center">I'm Sam, a self-taught software engineer</p>
 
 <!--
 📝 Planned Projects:
