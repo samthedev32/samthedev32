@@ -1,12 +1,4 @@
 <style>
-    h1 {
-        text-align: center;
-    }
-
-    #me {
-        text-align: center;
-    }
-
     .card {
         box-shadow: 0 10px 16px 0 rgba(0.5, 0, 0, 0.7);
         padding: 0px 8px;
@@ -16,8 +8,8 @@
 </style>
 
 <body>
-<h1>Howdy 👋</h1>
-<p id="me">I'm Sam, a self-taught software engineer</p>
+<h1 style="text-align: center;">Howdy 👋</h1>
+<p style="text-align: center;">I'm Sam, a self-taught software engineer</p>
 
 <div class="card">
     <h3>My interests</h3>
