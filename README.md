@@ -16,17 +16,17 @@
 </style>
 
 <body>
-    <h1>Howdy 👋</h1>
-    <p id="me">I'm Sam, a self-taught software engineer</p>
+<h1>Howdy 👋</h1>
+<p id="me">I'm Sam, a self-taught software engineer</p>
 
-    <div class="card">
-        <h3>My interests</h3>
-        <ul>
-            <li>Game (-engine) Development</li>
-            <li>Embedded Development</li>
-            <li>stuff</li>
-        </ul>
-    </div>
+<div class="card">
+    <h3>My interests</h3>
+    <ul>
+        <li>Game (-engine) Development</li>
+        <li>Embedded Development</li>
+        <li>stuff</li>
+    </ul> 
+</div>
 
 </body>
 
@@ -59,9 +59,7 @@
 💻 My Dev Setup:
 - I daily-drive [Debian 12](https://www.debian.org)
 - My server runs [proxmox](https://proxmox.com/en/) with [Debian 12](https://www.debian.org)
-- My preferred desktop environment is [GNOME](https://www.gnome.org/) with some personalization (see
-[setup.sh](../setup.sh))
-- I use [CLion](https://www.jetbrains.com/clion/) for large projects and [VSCode]([https://code.visualstudio.com/]) for
-libraries and smaller projects
+- My preferred desktop environment is [GNOME](https://www.gnome.org/) with some personalization (see [setup.sh](../setup.sh))
+- I use [CLion](https://www.jetbrains.com/clion/) for large projects and [VSCode]([https://code.visualstudio.com/]) for libraries and smaller projects
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=samthedev32&layout=compact)
