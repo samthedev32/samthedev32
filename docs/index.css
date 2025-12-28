@@ -1,0 +1,50 @@
+body {
+	font-family: 'Comic Relief', Arial;
+	background: var(--bg);
+
+	overflow-x: hidden;
+
+	margin: 0;
+
+	width: 100%;
+	height: 100%;
+
+	color: var(--text);
+}
+
+/* Scroll */
+* {
+	scrollbar-color: var(--text) var(--bg);
+}
+
+/* Global Colors & Classes */
+svg {
+	fill: var(--text);
+	stroke: var(--text);
+}
+
+.hidden {
+	display: none;
+}
+
+/* Theme Switcher */
+#util {
+	position: fixed;
+	right: 0;
+	margin: 1em;
+	cursor: pointer;
+}
+
+#util i {
+	font-size: 2em;
+}
+
+/* About Section */
+#about {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+	height: 95vh;
+}

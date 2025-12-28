@@ -1,0 +1,43 @@
+/* Grid */
+#grid {
+	display: block;
+
+	position: absolute;
+
+	inset: 0;
+	z-index: -1;
+	pointer-events: none;
+	opacity: 0.3;
+	mask-image: linear-gradient(to bottom right, black, transparent 50%);
+	mask-mode: alpha;
+}
+
+.shimmer {
+	font-weight: 500;
+	background: linear-gradient(90deg,
+			var(--accent) 0%,
+			var(--text) 50%,
+			var(--accent) 100%);
+	background-size: 200% 100%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: shimmer 2.5s infinite linear;
+}
+
+span {
+	font-size: 3em;
+}
+
+p {
+	opacity: 40%;
+}
+
+@keyframes shimmer {
+	from {
+		background-position: 200% 0;
+	}
+
+	to {
+		background-position: -200% 0;
+	}
+}

@@ -1,0 +1,15 @@
+:root {
+	--bg: rgb(25, 25, 112);
+
+	--text: cornsilk;
+	--accent: rgb(112, 112, 225);
+
+
+	--grid-stroke: cornsilk;
+}
+
+.dark {}
+
+.light {
+	display: none;
+}

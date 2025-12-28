@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Font(s) -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comic+Relief">
+	<script src="https://kit.fontawesome.com/db8d111f7d.js" crossorigin="anonymous"></script>
+
+	<!-- All of CSS -->
+	<link id="theme" rel="stylesheet" href="auto.css">
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="decor.css">
+
+	<title>Sam's Page</title>
+</head>
+
+<body>
+	<!-- background grid -->
+	<svg id="grid" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100vh" height="100vh">
+		<defs>
+			<pattern id="cross" width="4" height="4" patternUnits="userSpaceOnUse" style="stroke-width: 0.2;">
+				<path d="M2 0 L2 4 ZM0 2 L4 2 Z" />
+			</pattern>
+		</defs>
+		<rect width="100%" height="100%" fill="url(#cross)" style="stroke-width: 0;" />
+	</svg>
+
+	<!-- theme switch -->
+	<div id="util">
+		<i id="auto" class="fa-solid fa-cloud-sun"></i>
+		<i id="dark" class="fa-solid fa-cloud hidden"></i>
+		<i id="light" class="fa-solid fa-sun hidden"></i>
+	</div>
+
+	<div id="about">
+		<span class="shimmer">let me cook...</span>
+		<p>this webpage is still under construction</p>
+	</div>
+</body>
+
+<!-- Scripts -->
+<script src="theme.js"></script>
+
+</html>
