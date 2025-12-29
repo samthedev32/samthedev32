@@ -36,12 +36,14 @@ dark.addEventListener('click', () => {
 })
 
 // Set Theme
+const VALID_THEMES = ['auto', 'light', 'dark'];
 const savedTheme = localStorage.getItem('theme');
-if (savedTheme != 'auto' && savedTheme != 'light' && savedTheme != 'dark') localStorage.removeItem('theme')
-else {
-	theme.setAttribute('href', `${savedTheme}.css`)
+if (!VALID_THEMES.includes(savedTheme)) {
+	localStorage.removeItem('theme');
+} else {
+	theme.setAttribute('href', `${savedTheme}.css`);
 
-	if (savedTheme != 'auto') auto.classList.add('hidden')
-	if (savedTheme == 'light') light.classList.remove('hidden')
-	if (savedTheme == 'dark') dark.classList.remove('hidden')
+	auto.classList.toggle('hidden', savedTheme !== 'auto');
+	light.classList.toggle('hidden', savedTheme !== 'light');
+	dark.classList.toggle('hidden', savedTheme !== 'dark');
 }

@@ -1,30 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<!-- Font(s) -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comic+Relief">
 	<script src="https://kit.fontawesome.com/db8d111f7d.js" crossorigin="anonymous"></script>
 
 	<!-- All of CSS -->
-	<link id="theme" rel="stylesheet" href="auto.css">
 	<link rel="stylesheet" href="index.css">
 	<link rel="stylesheet" href="decor.css">
+	<link id="theme" rel="stylesheet" href="auto.css">
 
 	<title>Sam's Page</title>
 </head>
 
 <body>
 	<!-- background grid -->
-	<svg id="grid" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100vh" height="100vh">
+	<svg id="grid" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMinYMin meet">
 		<defs>
 			<pattern id="cross" width="4" height="4" patternUnits="userSpaceOnUse" style="stroke-width: 0.2;">
 				<path d="M2 0 L2 4 ZM0 2 L4 2 Z" />
 			</pattern>
 		</defs>
-		<rect width="100%" height="100%" fill="url(#cross)" style="stroke-width: 0;" />
+		<rect x="0" y="0" width="100%" height="100%" fill="url(#cross)" style="stroke-width: 0;" />
 	</svg>
 
 	<!-- theme switch -->

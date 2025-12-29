@@ -12,11 +12,6 @@ body {
 	color: var(--text);
 }
 
-/* Scroll */
-* {
-	scrollbar-color: var(--text) var(--bg);
-}
-
 /* Global Colors & Classes */
 svg {
 	fill: var(--text);
